@@ -1,0 +1,65 @@
+/* scratch.css - Stylesheet for Scratch Page */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #ff4500;
+    border-bottom: 2px solid #ff4500;
+    padding-bottom: 0.5em;
+}
+
+iframe {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #121212;
+    color: #ff4500;
+    margin-top: 2em;
+}
+
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #ff4500;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

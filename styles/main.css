@@ -1,0 +1,56 @@
+/* main.css - Stylesheet for Resume Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #0044cc;
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #f1f1f1;
+    margin-top: 2em;
+}
+
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #0044cc;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
